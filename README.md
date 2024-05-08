@@ -45,13 +45,13 @@ This repository contains the implementation of our paper "SocNavGym: A Reinforce
 ## Usage
 ```python
 import socnavgym
-import gym
+import gymnasium as gym
 env = gym.make('SocNavGym-v1', config="<PATH_TO_CONFIG>")  
 ```
 ## Sample Code
 ```python
 import socnavgym
-import gym
+import gymnasium as gym
 env = gym.make("SocNavGym-v1", config="./environment_configs/exp1_no_sngnn.yaml") 
 obs, _ = env.reset()
 
